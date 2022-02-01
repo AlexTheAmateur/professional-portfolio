@@ -9,8 +9,12 @@
   --tertiary-color: #0d0014;
 }
 body {
-  background-color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
+  background-image: url("../images/HD_Blue_Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 .primary-border {
   border-color: var(--primary-color);
@@ -36,8 +40,9 @@ header {
   top: 0;
   background-image: url("../images/HD_Blue_Background.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
+  background-position: 80%;
   z-index: 9999;
 }
 header a {
@@ -79,26 +84,81 @@ section {
   background-color: var(--secondary-color);
   border-right: 3px solid;
   text-align: center;
-  margin: auto 30px auto 30px;
+  margin: 10px 30px 10px 30px;
   padding-right: 10px;
   flex: 1;
   width: 200px;
   border-radius: 10px;
 }
 .section-content {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color);
   border-radius: 10px;
   width: 50%;
+  margin: 10px 30px 10px 30px;
+  min-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none; */
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  width: 70%;
   margin: auto 30px auto 30px;
   min-width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.section-content ul li {
+  margin: 0px 5px;
 }
 .section-text {
+  display: flex;
   margin: 5px;
+  max-width: 60%;
 }
 .section-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.container {
+  width: 200px;
+  height: 300px;
+  margin: 0px;
+}
+.container img {
+  width: 100%;
 }
 
+a {
+  margin: 5px;
+}
+p {
+  background-color: var(--primary-color);
+  text-align: center;
+  font-family: sans-serif;
+}
+.section-list article a {
+  background-color: var(--primary-color);
+}
+.my-work {
+}
 .work {
+  min-width: 250px;
+  min-height: 150px;
+  background-size: 250px;
+  margin: 10px;
 }
 .work-name {
 }
@@ -106,4 +166,19 @@ section {
 .contact {
 }
 .hero {
+}
+
+#weather-riders {
+  background-image: url("../images/weather.jpeg");
+  background-size: 100%;
+  width: 100%;
+}
+#run-buddy {
+  background-image: url("../images/running.png");
+}
+#book-shelf {
+  background-image: url("../images/book.jpeg");
+}
+#tbd {
+  background-image: url();
 }
