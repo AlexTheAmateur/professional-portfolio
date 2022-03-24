@@ -152,21 +152,21 @@ p {
 .section-list article a {
   background-color: var(--primary-color);
 }
-.my-work {
-}
+/* .my-work {
+} */
 .work {
   min-width: 250px;
   min-height: 150px;
   background-size: 250px;
   margin: 10px;
 }
-.work-name {
+/* .work-name {
 }
 
 .contact {
 }
 .hero {
-}
+} */
 
 #weather-riders {
   background-image: url("../images/weather.jpeg");
