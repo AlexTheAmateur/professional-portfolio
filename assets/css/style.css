@@ -179,6 +179,9 @@ p {
 #book-shelf {
   background-image: url("../images/book.jpeg");
 }
+#e-pill-box {
+  background-image: url("../images/pills.jpeg");
+}
 #tbd {
   background-image: url();
 }
